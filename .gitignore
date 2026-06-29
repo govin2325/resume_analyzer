@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Generated outputs (too large / regenerated on each run)
+submission.csv
+results.js
+top_1000_candidates.xlsx
+top_1000_candidates_updated.xlsx
+
+# Raw data files (too large for GitHub — download separately)
+data/
+*.jsonl
+*.json
+*.docx
+*.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Logs
+*.log
